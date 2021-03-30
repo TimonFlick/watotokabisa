@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+  height: 500px;
+}
+
+.content {
+  grid-area: content;
+  margin-bottom: 100px;
+}
+.footer {
+  grid-area: footer;
+}

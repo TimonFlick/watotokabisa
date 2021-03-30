@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ .navBtn{
+    margin: 2px 8px;
+  }
+
+  .navBtnActive {
+   margin: 2px 10px;
+   color:var(--color-secondary);
+  }

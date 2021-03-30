@@ -1,0 +1,66 @@
+html,
+.light {
+  --color-text: #27498C;
+  --color-headline: #FFFFFF;
+  --color-background: #C9DFF2;
+  --color-secondary:#F2762E;
+  --color-primary: #D9BD30;;
+}
+
+html,
+body {
+  font-family: Roboto Slab;
+  
+  font-size: 35px;
+  margin: 0;
+  background-color:var(--color-background);
+  
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-text);
+  font-family: Amatic Sc;
+  margin: 0;
+  padding: 0;
+ }
+
+h1 {
+  font-size: 80px;
+}
+ 
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-family: Amatic Sc;
+  text-decoration: underline;
+  color: var(--color-headline);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-secondary);
+}
+p{
+  font-size: 20px;
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ::selection {
+  background: #66f2f0; 
+}
+::-moz-selection {
+  background: #66f2f0;  
+} */
+
+@media (min-width: 750px) {
+  
+}
